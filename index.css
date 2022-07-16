@@ -91,3 +91,24 @@ nav{
     background-color: blueviolet;
     height: 3em;
 }
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 1.7em;
+    column-gap: 1.2em;
+    margin-bottom: 2em;
+}
+.item{
+    background-color: #000;
+}
+
+.item>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.item>img:hover{
+    opacity: .7;
+}
