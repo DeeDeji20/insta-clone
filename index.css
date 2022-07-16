@@ -11,5 +11,29 @@ nav{
 } 
 
 .logo{
-    
+    text-decoration: none;
+}
+
+.logo>img{
+    vertical-align: middle;
+}
+
+.search{
+    background-color: #FAFAFA;
+    margin-left: 19em;
+    height: 1.9em;
+    width: 15.5em;
+    border: 1px solid #DBDBDB;
+}
+
+.search::placeholder{
+    text-align: center;
+}
+
+.nav-link{
+    margin-left: 8em;
+}
+
+.nav-link>a{
+    margin-left: 1em;
 }
