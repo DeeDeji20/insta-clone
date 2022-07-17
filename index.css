@@ -59,7 +59,7 @@ nav{
 
 
 .profile-photo{
-    background-color: brown;
+    background-color: #DBDBDB;
     width: 10em;
     height: 10em;
     border-radius: 50%;
@@ -87,8 +87,20 @@ nav{
     cursor: pointer;
 }
 
+.add-photo{
+    transform: scale(3);
+    position: fixed;
+    bottom: 5em;
+    right: 7em;
+    cursor: pointer;
+}
+
+#addPhotoInput{
+    display: none;
+}
+
 .gallery-nav{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     height: 3em;
 }
 

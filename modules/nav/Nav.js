@@ -1,4 +1,4 @@
-const Nav = ()=>{
+const Nav = ()=>
     `
     <nav>
         <a href="#" class="logo">
@@ -22,4 +22,6 @@ const Nav = ()=>{
     </nav>
 
     `
-}
+
+
+        export default Nav

@@ -1,5 +1,9 @@
-const Gallery = ()=>{
+const Gallery = ()=>
     `
+    <input type="file" name="photo" id="addPhotoInput"/>
+    <label for="addPhotoInput">
+        <i class="add-photo fa-light fa-plus"></i>
+    </label>
     <div class="gallery-nav"></div>
     <section class="gallery">
            
@@ -24,4 +28,5 @@ const Gallery = ()=>{
 
     </section>
     `
-}
+
+        export default Gallery
